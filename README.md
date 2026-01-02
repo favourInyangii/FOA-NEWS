@@ -1,17 +1,23 @@
-# React + Vite
+# React News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive news application built with **React JS** and **Bootstrap**. This project fetches and displays real-time headlines using the NewsAPI.
 
-Currently, two official plugins are available:
+## 📱 Project Overview
+This app provides a clean interface for browsing news across different categories. It demonstrates how to handle API integration, manage component states, and secure sensitive data in a React environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Features
+- **Live News Feed:** Real-time data fetching from NewsAPI.org.
+- **Category Navigation:** Switch between Business, Tech, Sports, and more.
+- **Responsive Layout:** Fully optimized for mobile and desktop using Bootstrap components.
+- **Secure Architecture:** Uses Vite environment variables to protect API keys.
 
-## React Compiler
+## 🧰 Tech Stack
+- **Framework:** React (Vite)
+- **Styling:** Bootstrap 5
+- **Data Source:** NewsAPI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔒 Security & Configuration
+To keep the project secure, the API key is stored in a `.env` file using the variable name `VITE_API_KEY`. This file is excluded from version control via `.gitignore` to prevent unauthorized access to the API credentials.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# FOA-NEWS" 
+---
+*Built as part of a React development journey.*
